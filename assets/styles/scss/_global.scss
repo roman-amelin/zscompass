@@ -1195,6 +1195,21 @@ main {
 		}
 	}
 }
+
+.footer-widget {
+	menu {
+		li a {
+			margin-left: 0;
+			&:hover {
+				background-color: transparent;
+				&:before {
+					background-color: $primary-color;
+				}
+			}
+		}
+	}
+}
+
 .cta-register {
 	width: 356px;
 	height: 356px;
@@ -1222,5 +1237,4 @@ main {
 			margin-top: 17px;
 		}
 	}
-
 }
