@@ -1,0 +1,613 @@
+/* setup grid widths
+=====================================================*/
+
+
+
+.no-flexbox .grid-x:before,
+
+
+
+.no-flexbox .grid-x:after {
+
+
+
+    content: " ";
+
+
+
+    clear: both;
+
+
+
+    display: table;
+
+
+
+}
+
+
+
+
+
+
+
+.no-flexbox .small-1,
+
+
+
+.no-flexbox .small-2,
+
+
+
+.no-flexbox .small-3,
+
+
+
+.no-flexbox .small-4,
+
+
+
+.no-flexbox .small-5,
+
+
+
+.no-flexbox .small-6,
+
+
+
+.no-flexbox .small-7,
+
+
+
+.no-flexbox .small-8,
+
+
+
+.no-flexbox .medium-1,
+
+
+
+.no-flexbox .medium-2,
+
+
+
+.no-flexbox .medium-3,
+
+
+
+.no-flexbox .medium-4,
+
+
+
+.no-flexbox .medium-5,
+
+
+
+.no-flexbox .medium-6,
+
+
+
+.no-flexbox .medium-7,
+
+
+
+.no-flexbox .medium-8,
+
+
+
+.no-flexbox .large-1,
+
+
+
+.no-flexbox .large-2,
+
+
+
+.no-flexbox .large-3,
+
+
+
+.no-flexbox .large-4,
+
+
+
+.no-flexbox .large-5,
+
+
+
+.no-flexbox .large-6,
+
+
+
+.no-flexbox .large-7,
+
+
+
+.no-flexbox .large-8 {
+
+
+
+    float: left;
+
+
+
+    display: block;
+
+
+
+}
+
+
+
+
+
+
+
+/*small size*/
+
+
+
+@media all and ( max-width: 639px ) {
+
+
+
+
+
+
+
+    .no-flexbox .small-1{
+
+
+
+        width: 10%; 
+
+
+
+    }
+
+
+
+
+
+
+
+    .no-flexbox .small-2 {
+
+
+
+        width: 20%;
+
+
+
+    }
+
+
+
+
+
+
+
+    .no-flexbox .small-3 {
+
+
+
+        width: 30%;
+
+
+
+    }
+
+
+
+
+
+
+
+    .no-flexbox .small-4 {
+
+
+
+        width: 40%;
+
+
+
+    }
+
+
+
+
+
+
+
+    .no-flexbox .small-5 {
+
+
+
+        width: 50%;
+
+
+
+    }
+
+
+
+
+
+
+
+    .no-flexbox .small-6 {
+
+
+
+        width: 60%;
+
+
+
+    }
+
+
+
+
+
+
+
+    .no-flexbox .small-7 {
+
+
+
+        width: 70%;
+
+
+
+    }
+
+
+
+
+
+
+
+    .no-flexbox .small-8 {
+
+
+
+        width: 80%;
+
+
+
+    }
+
+
+    .no-flexbox .small-9 {
+
+
+
+        width: 90%;
+
+
+
+    }
+
+    .no-flexbox .small-10 {
+
+
+
+        width: 100%;
+
+
+
+    }
+
+
+    .no-flexbox .small-order-1 {
+
+
+
+        float: left !important;
+
+
+
+    }
+
+
+
+
+
+
+
+    .no-flexbox .small-order-2 {
+
+
+
+        float: right !important;
+
+
+
+    }
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+/*medium size*/
+
+
+
+@media all and ( min-width: 640px ) {
+
+
+    .no-flexbox .medium-1{
+
+        width: 10%; 
+
+    }
+
+
+
+
+
+
+
+    .no-flexbox .medium-2 {
+
+
+
+        width: 20%;
+
+
+
+    }
+
+
+
+
+
+
+
+    .no-flexbox .medium-3 {
+
+
+
+        width: 30%;
+
+
+
+    }
+
+
+
+
+
+
+
+    .no-flexbox .medium-4 {
+
+
+
+        width: 40%;
+
+
+
+    }
+
+
+
+
+
+
+
+    .no-flexbox .medium-5 {
+
+
+
+        width: 50%;
+
+
+
+    }
+
+
+    .no-flexbox .medium-6 {
+
+        width: 60%;
+
+    }
+
+
+    .no-flexbox .medium-7 {
+
+        width: 70%;
+
+
+    }
+
+
+    .no-flexbox .medium-8 {
+
+        width: 80%;
+
+    }
+
+    .no-flexbox .medium-9 {
+
+        width: 90%;
+
+    }
+
+
+    .no-flexbox .medium-10 {
+
+        width: 100%;
+
+    }
+
+
+
+    .no-flexbox .medium-order-1 {
+
+
+
+        float: left !important;
+
+
+
+    }
+
+
+    .no-flexbox .medium-order-2 {
+
+
+
+        float: right !important;
+
+
+
+    }
+
+
+}
+
+
+
+
+
+
+
+/*large size*/
+
+
+
+@media all and ( min-width: 1024px ) {
+
+
+
+    .no-flexbox .large-1{
+
+        width: 10%; 
+
+    }
+
+
+    .no-flexbox .large-2 {
+
+        width: 20%; 
+
+    }
+
+
+    .no-flexbox .large-3 {
+
+        width: 30%;
+
+    }
+
+
+    .no-flexbox .large-4 {
+
+        width: 40%;
+
+    }
+
+
+    .no-flexbox .large-5 {
+
+        width: 50%;
+
+    }
+
+
+    .no-flexbox .large-6 {
+
+        width: 60%;
+
+    }
+
+
+    .no-flexbox .large-7 {
+
+        width: 70%;
+
+    }
+
+
+    .no-flexbox .large-8 {
+
+        width: 80%;
+
+    }
+
+    .no-flexbox .large-9 {
+
+        width: 90%;
+
+    }
+
+    .no-flexbox .large-10{
+
+        width: 100%;
+
+    }
+
+    .no-flexbox .large-order-1 {
+
+        float: left !important;
+
+    }
+
+
+    .no-flexbox .large-order-2 {
+
+        float: right !important;
+
+    }
+
+}
+
+
+
+.no-flexbox .menu, 
+.no-flexbox .menu.horizontal {
+
+    display: block;
+
+}
+
+
+.no-flexbox .menu.align-right {
+
+
+    text-align: right;
+
+}
+
+
+    .no-flexbox .menu li, 
+
+    .no-flexbox .menu.horizontal li {
+
+        display: inline-block;
+
+    }
+
+    .no-flexbox .menu.submenu.is-dropdown-submenu {
+
+        display: none !important;
+
+    }
+
+
+    .no-flexbox .menu.submenu.is-dropdown-submenu.js-dropdown-active {
+
+        display: block !important;
+
+    }
