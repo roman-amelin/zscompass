@@ -1193,18 +1193,17 @@ main {
 				}
 			}
 		}
-	}
-}
-
-.footer-widget {
-	menu {
-		li a {
-			margin-left: 0;
-			&:hover {
-				background-color: transparent;
-				&:before {
-					background-color: $primary-color;
-				}
+		.menu-footer-menu-container {
+			li {
+				a {
+					margin-left: 0;
+					&:hover {
+						background-color: transparent;
+						&:before {
+							background-color: $primary-color!important;
+						}
+					}
+				} 
 			}
 		}
 	}
